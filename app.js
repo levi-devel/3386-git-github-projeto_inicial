@@ -67,6 +67,7 @@ function reiniciarJogo() {
 }
 
 function atualizar(){
+    confirm("Deseja atualizar?");
     location.reload();
 }
 
